@@ -39,3 +39,7 @@ variable "image" {
   description = "image to build instance from"
   type = map
 }
+
+variable "image_info" {
+  description = "image "
+}
