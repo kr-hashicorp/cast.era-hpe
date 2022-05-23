@@ -15,7 +15,7 @@ resource "google_compute_instance" "demo" {
 
   boot_disk {
     initialize_params {
-      image = var.image["RHEL7"]
+      image = var.image_info
     }
   }
 
